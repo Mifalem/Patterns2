@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8eb6928-d10b-477e-90da-38f84f98c4cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ibank/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ibank/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ibank/test/AuthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ibank/DataGenerator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +51,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2bJ9nDbCV4nrbw2CW6btWbeltYn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,57 +62,133 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Study/ideaAutotests/Patterns2/src/main/java&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Study/ideaAutotests/Patterns2/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Study/ideaAutotests/Patterns2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Patterns2 [dependencies]">
-    <configuration name="Patterns2 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AuthTest">
+    <configuration name="AuthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ibank.test.AuthTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Patterns2 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AuthTest.shouldNotLoginWhenEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ibank.test.AuthTest.shouldNotLoginWhenEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.shouldNotLoginWhenRegisteredBlockedWrongLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ibank.test.AuthTest.shouldNotLoginWhenRegisteredBlockedWrongLogin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.shouldNotLoginWhenRegisteredBlockedWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ibank.test.AuthTest.shouldNotLoginWhenRegisteredBlockedWrongPassword&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.shouldNotLoginWhenRegisteredWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ibank.test.AuthTest.shouldNotLoginWhenRegisteredWrongPassword&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Patterns2 [dependencies]" />
-        <item itemvalue="Gradle.Patterns2 [test]" />
+        <item itemvalue="Gradle.AuthTest" />
+        <item itemvalue="Gradle.AuthTest.shouldNotLoginWhenEmpty" />
+        <item itemvalue="Gradle.AuthTest.shouldNotLoginWhenRegisteredBlockedWrongPassword" />
+        <item itemvalue="Gradle.AuthTest.shouldNotLoginWhenRegisteredWrongPassword" />
+        <item itemvalue="Gradle.AuthTest.shouldNotLoginWhenRegisteredBlockedWrongLogin" />
       </list>
     </recent_temporary>
   </component>
